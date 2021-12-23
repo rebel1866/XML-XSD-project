@@ -1,0 +1,140 @@
+<?xml version = "1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.example.by"
+           xmlns="http://www.example.by" elementFormDefault="qualified">
+
+    <xs:element name="stem-color" default="зеленый" type="xs:string"/>
+    <xs:element name="leaves-color" default="зеленый" type="xs:string"/>
+    <xs:element name="lighting" type="xs:boolean"/>
+    <xs:element name="watering" type="xs:integer"/>
+    <xs:element name="record-date-time" type="xs:dateTime"/>
+
+
+    <xs:element name="name">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:maxLength value="20"/>
+                <xs:whiteSpace value="replace"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+
+    <xs:element name="origin">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[А-Я][а-я]{3,15}"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+
+    <xs:element name="temperature">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="0"/>
+                <xs:maxExclusive value="40"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="average-flower-size">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="0"/>
+                <xs:maxExclusive value="100"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:simpleType name="lifeCycle">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="однолетнее"/>
+            <xs:enumeration value="многолетнее"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="soil">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="подзолистая"/>
+                <xs:enumeration value="грунтовая"/>
+                <xs:enumeration value="дерново-подзолистая"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+
+    <xs:element name="visual-parameters">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="stem-color"/>
+                <xs:element ref="leaves-color"/>
+                <xs:element ref="average-flower-size"/>
+                <xs:any minOccurs="0" maxOccurs="2"/>
+            </xs:sequence>
+            <xs:attribute name="lifeCycle" default="однолетнее" type="lifeCycle" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="growing-tips" type="growing-tips"/>
+    <xs:complexType name="growing-tips">
+        <xs:sequence>
+            <xs:element ref="temperature"/>
+            <xs:element ref="lighting"/>
+            <xs:element ref="watering"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="full-growing-tips">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:extension base="growing-tips">
+                    <xs:sequence>
+                        <xs:element name="poisonous" type="xs:boolean"/>
+                        <xs:element name="air-cleaning" type="xs:boolean"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="multiplying">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="листьями"/>
+                <xs:enumeration value="черенками"/>
+                <xs:enumeration value="семенами"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+
+    <xs:element name="flower">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="soil"/>
+                <xs:element ref="origin"/>
+                <xs:element ref="visual-parameters"/>
+                <xs:element ref="growing-tips" minOccurs="0"/>
+                <xs:element ref="multiplying"/>
+                <xs:element ref="record-date-time"/>
+                <xs:any minOccurs="0" maxOccurs="2"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
+            <xs:anyAttribute/>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="flowers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="4" ref="flower" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

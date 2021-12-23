@@ -1,0 +1,346 @@
+<?xml version = "1.0"?>
+
+<flowers xmlns="http://www.example.by"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.example.by flowers.xsd">
+
+
+    <flower id="id_1">
+        <name>Аквилегия</name>
+        <soil>подзолистая</soil>
+        <origin>Китай</origin>
+        <visual-parameters>
+            <stem-color>зеленый</stem-color>
+            <leaves-color>зеленый</leaves-color>
+            <average-flower-size>40</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>24</temperature>
+            <lighting>true</lighting>
+            <watering>100</watering>
+        </growing-tips>
+        <multiplying>черенками</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+
+    <flower id="id_2">
+        <name>Альстремерии</name>
+        <soil>подзолистая</soil>
+        <origin>Таиланд</origin>
+        <visual-parameters lifeCycle="многолетнее">
+            <stem-color>светло-сине-зеленый</stem-color>
+            <leaves-color>зеленый</leaves-color>
+            <average-flower-size>70</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>22</temperature>
+            <lighting>true</lighting>
+            <watering>150</watering>
+        </growing-tips>
+        <multiplying>листьями</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+        <full-growing-tips>
+            <temperature>22</temperature>
+            <lighting>true</lighting>
+            <watering>150</watering>
+            <poisonous>true</poisonous>
+            <air-cleaning>true</air-cleaning>
+        </full-growing-tips>
+    </flower>
+
+
+    <flower id="id_3">
+        <name>Азиатские маргаритки</name>
+        <soil>дерново-подзолистая</soil>
+        <origin>Уганда</origin>
+        <visual-parameters lifeCycle="многолетнее">
+            <stem-color>синевато-фиолетовый</stem-color>
+            <leaves-color>бледно-зеленый</leaves-color>
+            <average-flower-size>40</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>24</temperature>
+            <lighting>true</lighting>
+            <watering>100</watering>
+        </growing-tips>
+        <multiplying>семенами</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+
+    <flower id="id_4">
+        <name>Белый лотос</name>
+        <soil>грунтовая</soil>
+        <origin>Вьетнам</origin>
+        <visual-parameters>
+            <stem-color>зеленый</stem-color>
+            <leaves-color>зеленый</leaves-color>
+            <average-flower-size>40</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>25</temperature>
+            <lighting>false</lighting>
+            <watering>300</watering>
+        </growing-tips>
+        <multiplying>листьями</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+
+    <flower id="id_5">
+        <name>Бромелия</name>
+        <soil>подзолистая</soil>
+        <origin>Монголия</origin>
+        <visual-parameters>
+            <stem-color>красный</stem-color>
+            <leaves-color>белый</leaves-color>
+            <average-flower-size>50</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>26</temperature>
+            <lighting>true</lighting>
+            <watering>400</watering>
+        </growing-tips>
+        <multiplying>листьями</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+    <flower id="id_6">
+        <name>Восточный мак</name>
+        <soil>подзолистая</soil>
+        <origin>Афганистан</origin>
+        <visual-parameters>
+            <stem-color>зеленый</stem-color>
+            <leaves-color>зеленый</leaves-color>
+            <average-flower-size>40</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>20</temperature>
+            <lighting>true</lighting>
+            <watering>150</watering>
+        </growing-tips>
+        <multiplying>листьями</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+    <flower id="id_7">
+        <name>Бругмансия</name>
+        <soil>дерново-подзолистая</soil>
+        <origin>Вьетнам</origin>
+        <visual-parameters>
+            <stem-color>зеленый</stem-color>
+            <leaves-color>голубавато-зеленый</leaves-color>
+            <average-flower-size>80</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>21</temperature>
+            <lighting>true</lighting>
+            <watering>150</watering>
+        </growing-tips>
+        <multiplying>черенками</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+    <flower id="id_8">
+        <name>Азиатские маргаритки</name>
+        <soil>дерново-подзолистая</soil>
+        <origin>Уганда</origin>
+        <visual-parameters>
+            <stem-color>синевато-фиолетовый</stem-color>
+            <leaves-color>бледно-зеленый</leaves-color>
+            <average-flower-size>40</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>24</temperature>
+            <lighting>true</lighting>
+            <watering>100</watering>
+        </growing-tips>
+        <multiplying>семенами</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+
+    <flower id="id_9">
+        <name>Гавайский имбирь</name>
+        <soil>грунтовая</soil>
+        <origin>Гаваи</origin>
+        <visual-parameters>
+            <stem-color>синевато-фиолетовый</stem-color>
+            <leaves-color>бледно-зеленый</leaves-color>
+            <average-flower-size>40</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>24</temperature>
+            <lighting>true</lighting>
+            <watering>100</watering>
+        </growing-tips>
+        <multiplying>семенами</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+
+    <flower id="id_10">
+        <name>Газания</name>
+        <soil>грунтовая</soil>
+        <origin>Карибы</origin>
+        <visual-parameters>
+            <stem-color>красный</stem-color>
+            <leaves-color>красный</leaves-color>
+            <average-flower-size>45</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>39</temperature>
+            <lighting>true</lighting>
+            <watering>150</watering>
+        </growing-tips>
+        <multiplying>листьями</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+    <flower id="id_11">
+        <name>Георгин</name>
+        <soil>подзолистая</soil>
+        <origin>Абхазия</origin>
+        <visual-parameters>
+            <stem-color>зеленый</stem-color>
+            <leaves-color>красный</leaves-color>
+            <average-flower-size>25</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>25</temperature>
+            <lighting>true</lighting>
+            <watering>150</watering>
+        </growing-tips>
+        <multiplying>черенками</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+    <flower id="id_12">
+        <name>Азиатские маргаритки</name>
+        <soil>дерново-подзолистая</soil>
+        <origin>Уганда</origin>
+        <visual-parameters>
+            <stem-color>синевато-фиолетовый</stem-color>
+            <leaves-color>бледно-зеленый</leaves-color>
+            <average-flower-size>40</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>24</temperature>
+            <lighting>true</lighting>
+            <watering>100</watering>
+        </growing-tips>
+        <multiplying>семенами</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+    <flower id="id_13">
+        <name>Голубые колокольчики</name>
+        <soil>дерново-подзолистая</soil>
+        <origin>Россия</origin>
+        <visual-parameters>
+            <stem-color>голубой</stem-color>
+            <leaves-color>желтый</leaves-color>
+            <average-flower-size>24</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>28</temperature>
+            <lighting>true</lighting>
+            <watering>150</watering>
+        </growing-tips>
+        <multiplying>семенами</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+    <flower id="id_14">
+        <name>Гортензия</name>
+        <soil>подзолистая</soil>
+        <origin>Россия</origin>
+        <visual-parameters>
+            <stem-color>зеленый</stem-color>
+            <leaves-color>белый</leaves-color>
+            <average-flower-size>22</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>23</temperature>
+            <lighting>false</lighting>
+            <watering>300</watering>
+        </growing-tips>
+        <multiplying>листьями</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+    <flower id="id_15">
+        <name>Душистый горошек</name>
+        <soil>подзолистая</soil>
+        <origin>Россия</origin>
+        <visual-parameters>
+            <stem-color>зеленый</stem-color>
+            <leaves-color>зеленый</leaves-color>
+            <average-flower-size>25</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>23</temperature>
+            <lighting>true</lighting>
+            <watering>150</watering>
+        </growing-tips>
+        <multiplying>листьями</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+
+    <flower id="id_16">
+        <name>Георгин</name>
+        <soil>подзолистая</soil>
+        <origin>Абхазия</origin>
+        <visual-parameters>
+            <stem-color>зеленый</stem-color>
+            <leaves-color>красный</leaves-color>
+            <average-flower-size>25</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>25</temperature>
+            <lighting>true</lighting>
+            <watering>150</watering>
+        </growing-tips>
+        <multiplying>черенками</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+    <flower id="id_17">
+        <name>Белый лотос</name>
+        <soil>грунтовая</soil>
+        <origin>Вьетнам</origin>
+        <visual-parameters>
+            <stem-color>зеленый</stem-color>
+            <leaves-color>зеленый</leaves-color>
+            <average-flower-size>40</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>25</temperature>
+            <lighting>false</lighting>
+            <watering>300</watering>
+        </growing-tips>
+        <multiplying>листьями</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+
+
+    <flower id="id_18">
+        <name>Альстремерии</name>
+        <soil>подзолистая</soil>
+        <origin>Таиланд</origin>
+        <visual-parameters>
+            <stem-color>светло-сине-зеленый</stem-color>
+            <leaves-color>зеленый</leaves-color>
+            <average-flower-size>70</average-flower-size>
+        </visual-parameters>
+        <growing-tips>
+            <temperature>22</temperature>
+            <lighting>true</lighting>
+            <watering>150</watering>
+        </growing-tips>
+        <multiplying>листьями</multiplying>
+        <record-date-time>2021-08-10T12:15:24</record-date-time>
+    </flower>
+</flowers>

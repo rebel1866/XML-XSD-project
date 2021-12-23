@@ -1,0 +1,462 @@
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 16:57:24,905
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-3
+ Log information:uploaded file already exists, we will use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 16:57:25,008
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-3
+ Log information:uploaded file already exists, we will use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 16:59:05,747
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-1
+ Log information:uploaded file already exists, we will use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 16:59:05,878
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-1
+ Log information:uploaded file already exists, we will use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 17:01:03,900
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-1
+ Log information:uploaded file already exists, we will use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 17:01:04,030
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-1
+ Log information:uploaded file already exists, we will use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 17:10:08,309
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-6
+ Log information:uploaded file already exists, we will use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 17:10:08,312
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-6
+ Log information:uploaded file already exists, we will use the existing one
+=========================================
+ Log level:ERROR
+ Log time:2021-12-10 17:10:08,405
+ Class name:by.epamtc.stanislavmelnikov.controller.ParserServlet
+ Thread:http-nio-8080-exec-6
+ Log information:fail to validate xsd scheme
+org.xml.sax.SAXParseException: cvc-maxExclusive-valid: Value '40' is not facet-valid with respect to maxExclusive '2' for type '#AnonType_average-flower-size'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204) ~[?:?]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:512) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3588) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidType(XMLSchemaValidator.java:3425) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.processElementContent(XMLSchemaValidator.java:3335) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleEndElement(XMLSchemaValidator.java:2373) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.endElement(XMLSchemaValidator.java:944) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1728) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.StreamValidatorHelper.validate(StreamValidatorHelper.java:178) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(ValidatorImpl.java:115) ~[?:?]
+	at javax.xml.validation.Validator.validate(Validator.java:124) ~[?:?]
+	at by.epamtc.stanislavmelnikov.logic.schemevalidation.SchemeValidation.validateXMLSchema(SchemeValidation.java:19) ~[classes/:?]
+	at by.epamtc.stanislavmelnikov.controller.ParserServlet.doPost(ParserServlet.java:39) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) [servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) [servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.54]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-websocket.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [catalina.jar:9.0.54]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [catalina.jar:9.0.54]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.54]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [catalina.jar:9.0.54]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [catalina.jar:9.0.54]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-coyote.jar:9.0.54]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.54]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util.jar:9.0.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.54]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.54]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+=========================================
+ Log level:ERROR
+ Log time:2021-12-10 17:10:36,029
+ Class name:by.epamtc.stanislavmelnikov.controller.ParserServlet
+ Thread:http-nio-8080-exec-2
+ Log information:C:\apache-tomcat-9.0.54\webapps\data (Отказано в доступе)
+java.io.FileNotFoundException: C:\apache-tomcat-9.0.54\webapps\data (Отказано в доступе)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.apache.commons.fileupload.disk.DiskFileItem.write(DiskFileItem.java:389) ~[commons-fileupload-1.4.jar:1.4]
+	at by.epamtc.stanislavmelnikov.utils.FileUploader.uploadFiles(FileUploader.java:38) ~[classes/:?]
+	at by.epamtc.stanislavmelnikov.controller.ParserServlet.doPost(ParserServlet.java:29) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) [servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) [servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.54]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-websocket.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [catalina.jar:9.0.54]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [catalina.jar:9.0.54]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.54]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [catalina.jar:9.0.54]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [catalina.jar:9.0.54]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-coyote.jar:9.0.54]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.54]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util.jar:9.0.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.54]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.54]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+=========================================
+ Log level:ERROR
+ Log time:2021-12-10 17:22:19,150
+ Class name:by.epamtc.stanislavmelnikov.controller.ParserServlet
+ Thread:http-nio-8080-exec-1
+ Log information:Files are not uploaded. Try again.
+org.apache.commons.fileupload.FileUploadException: Files are not uploaded. Try again.
+	at by.epamtc.stanislavmelnikov.utils.FileUploader.uploadFiles(FileUploader.java:45) ~[classes/:?]
+	at by.epamtc.stanislavmelnikov.controller.ParserServlet.doPost(ParserServlet.java:30) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) [servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) [servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.54]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-websocket.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [catalina.jar:9.0.54]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [catalina.jar:9.0.54]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.54]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [catalina.jar:9.0.54]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [catalina.jar:9.0.54]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-coyote.jar:9.0.54]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.54]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util.jar:9.0.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.54]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.54]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.io.FileNotFoundException: C:\apache-tomcat-9.0.54\webapps\data (Отказано в доступе)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.apache.commons.fileupload.disk.DiskFileItem.write(DiskFileItem.java:389) ~[commons-fileupload-1.4.jar:1.4]
+	at by.epamtc.stanislavmelnikov.utils.FileUploader.uploadFiles(FileUploader.java:40) ~[classes/:?]
+	... 25 more
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 17:22:40,373
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-5
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 17:22:40,376
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-5
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:ERROR
+ Log time:2021-12-10 17:22:40,649
+ Class name:by.epamtc.stanislavmelnikov.controller.ParserServlet
+ Thread:http-nio-8080-exec-5
+ Log information:fail in validating xsd scheme
+by.epamtc.stanislavmelnikov.logic.exception.LogicException: fail in validating xsd scheme
+	at by.epamtc.stanislavmelnikov.logic.schemevalidation.SchemeValidation.validateXMLSchema(SchemeValidation.java:22) ~[classes/:?]
+	at by.epamtc.stanislavmelnikov.controller.ParserServlet.doPost(ParserServlet.java:40) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) [servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) [servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.54]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-websocket.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [catalina.jar:9.0.54]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [catalina.jar:9.0.54]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.54]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [catalina.jar:9.0.54]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [catalina.jar:9.0.54]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-coyote.jar:9.0.54]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.54]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util.jar:9.0.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.54]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.54]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: org.xml.sax.SAXParseException: cvc-maxExclusive-valid: Value '40' is not facet-valid with respect to maxExclusive '2' for type '#AnonType_average-flower-size'.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204) ~[?:?]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(XMLSchemaValidator.java:512) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(XMLSchemaValidator.java:3588) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.elementLocallyValidType(XMLSchemaValidator.java:3425) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.processElementContent(XMLSchemaValidator.java:3335) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleEndElement(XMLSchemaValidator.java:2373) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.endElement(XMLSchemaValidator.java:944) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1728) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2899) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.StreamValidatorHelper.validate(StreamValidatorHelper.java:178) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.validation.ValidatorImpl.validate(ValidatorImpl.java:115) ~[?:?]
+	at javax.xml.validation.Validator.validate(Validator.java:124) ~[?:?]
+	at by.epamtc.stanislavmelnikov.logic.schemevalidation.SchemeValidation.validateXMLSchema(SchemeValidation.java:20) ~[classes/:?]
+	... 25 more
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 17:22:49,480
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-8
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 17:22:49,482
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-8
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 17:22:54,631
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-9
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 17:22:54,633
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-9
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 17:22:58,736
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-1
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-10 17:22:58,740
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-1
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:ERROR
+ Log time:2021-12-23 14:21:40,843
+ Class name:by.epamtc.stanislavmelnikov.controller.ParserServlet
+ Thread:http-nio-8080-exec-17
+ Log information:File uploading fail
+org.apache.commons.fileupload.FileUploadException: File uploading fail
+	at by.epamtc.stanislavmelnikov.utils.FileUploader.uploadFiles(FileUploader.java:45) ~[classes/:?]
+	at by.epamtc.stanislavmelnikov.controller.ParserServlet.doPost(ParserServlet.java:29) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) [servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) [servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.54]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-websocket.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [catalina.jar:9.0.54]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [catalina.jar:9.0.54]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.54]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [catalina.jar:9.0.54]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [catalina.jar:9.0.54]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-coyote.jar:9.0.54]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.54]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util.jar:9.0.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.54]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.54]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: org.apache.commons.io.FileExistsException: File element in parameter 'null' already exists: 'nullflowers1.xml'
+	at org.apache.commons.io.FileUtils.requireAbsent(FileUtils.java:2587) ~[commons-io-2.11.0.jar:2.11.0]
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:2305) ~[commons-io-2.11.0.jar:2.11.0]
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:2283) ~[commons-io-2.11.0.jar:2.11.0]
+	at org.apache.commons.fileupload.disk.DiskFileItem.write(DiskFileItem.java:405) ~[commons-fileupload-1.4.jar:1.4]
+	at by.epamtc.stanislavmelnikov.utils.FileUploader.uploadFiles(FileUploader.java:41) ~[classes/:?]
+	... 25 more
+=========================================
+ Log level:ERROR
+ Log time:2021-12-23 14:22:57,066
+ Class name:by.epamtc.stanislavmelnikov.controller.ParserServlet
+ Thread:http-nio-8080-exec-21
+ Log information:File uploading fail
+org.apache.commons.fileupload.FileUploadException: File uploading fail
+	at by.epamtc.stanislavmelnikov.utils.FileUploader.uploadFiles(FileUploader.java:45) ~[classes/:?]
+	at by.epamtc.stanislavmelnikov.controller.ParserServlet.doPost(ParserServlet.java:29) [classes/:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) [servlet-api.jar:4.0.FR]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) [servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.54]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-websocket.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [catalina.jar:9.0.54]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [catalina.jar:9.0.54]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.54]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [catalina.jar:9.0.54]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [catalina.jar:9.0.54]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-coyote.jar:9.0.54]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.54]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-util.jar:9.0.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.54]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.54]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: org.apache.commons.io.FileExistsException: File element in parameter 'null' already exists: 'nullflowers1.xml'
+	at org.apache.commons.io.FileUtils.requireAbsent(FileUtils.java:2587) ~[commons-io-2.11.0.jar:2.11.0]
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:2305) ~[commons-io-2.11.0.jar:2.11.0]
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:2283) ~[commons-io-2.11.0.jar:2.11.0]
+	at org.apache.commons.fileupload.disk.DiskFileItem.write(DiskFileItem.java:405) ~[commons-fileupload-1.4.jar:1.4]
+	at by.epamtc.stanislavmelnikov.utils.FileUploader.uploadFiles(FileUploader.java:41) ~[classes/:?]
+	... 25 more
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:24:13,065
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-4
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:24:13,193
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-4
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:24:20,610
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-6
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:24:20,610
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-6
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:24:26,317
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-9
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:24:26,317
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-9
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:24:51,189
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-15
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:24:51,189
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-15
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:32:55,130
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-20
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:32:55,138
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-20
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:45:30,944
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-1
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:45:31,024
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-1
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:46:56,135
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-1
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:46:56,295
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-1
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:47:16,524
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-6
+ Log information:uploaded file already exists, going to use the existing one
+=========================================
+ Log level:INFO
+ Log time:2021-12-23 14:47:16,524
+ Class name:by.epamtc.stanislavmelnikov.utils.FileUploader
+ Thread:http-nio-8080-exec-6
+ Log information:uploaded file already exists, going to use the existing one
